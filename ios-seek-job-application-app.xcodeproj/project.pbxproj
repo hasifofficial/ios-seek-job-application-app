@@ -47,6 +47,7 @@
 		1BB168922A4F230000907B44 /* MyApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168912A4F230000907B44 /* MyApplicationViewController.swift */; };
 		1BB168942A4F230800907B44 /* MyApplicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168932A4F230800907B44 /* MyApplicationViewModel.swift */; };
 		1BB168972A4F237100907B44 /* HomeTabBarVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168962A4F237100907B44 /* HomeTabBarVIewController.swift */; };
+		1BB168992A4F249E00907B44 /* MyApplicationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168982A4F249E00907B44 /* MyApplicationViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		1BB168912A4F230000907B44 /* MyApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplicationViewController.swift; sourceTree = "<group>"; };
 		1BB168932A4F230800907B44 /* MyApplicationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplicationViewModel.swift; sourceTree = "<group>"; };
 		1BB168962A4F237100907B44 /* HomeTabBarVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarVIewController.swift; sourceTree = "<group>"; };
+		1BB168982A4F249E00907B44 /* MyApplicationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplicationViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				1B5A72782A4F095600D58793 /* JobServiceTests.swift */,
 				1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */,
 				1BB1688E2A4F225100907B44 /* JobDetailViewModelTests.swift */,
+				1BB168982A4F249E00907B44 /* MyApplicationViewModelTests.swift */,
 				1BB1687E2A4F1B9600907B44 /* LoginViewModelTests.swift */,
 			);
 			path = "ios-seek-job-application-appTests";
@@ -542,6 +545,7 @@
 				1BB1687F2A4F1B9600907B44 /* LoginViewModelTests.swift in Sources */,
 				1BB168882A4F1EEF00907B44 /* JobListingViewModelTests.swift in Sources */,
 				1B5A72792A4F095600D58793 /* JobServiceTests.swift in Sources */,
+				1BB168992A4F249E00907B44 /* MyApplicationViewModelTests.swift in Sources */,
 				1BB1688F2A4F225100907B44 /* JobDetailViewModelTests.swift in Sources */,
 				1B5A72B92A4F157900D58793 /* Mockable.swift in Sources */,
 				1B5A72BB2A4F15B100D58793 /* JobServiceMockable.swift in Sources */,
