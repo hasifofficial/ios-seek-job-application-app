@@ -23,6 +23,8 @@
 		1B5A72AA2A4F12EF00D58793 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72A92A4F12EF00D58793 /* Endpoint.swift */; };
 		1B5A72AC2A4F131900D58793 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72AB2A4F131900D58793 /* API.swift */; };
 		1B5A72AE2A4F13B600D58793 /* JobEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72AD2A4F13B600D58793 /* JobEndpoints.swift */; };
+		1B5A72B22A4F14C300D58793 /* JobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72B12A4F14C300D58793 /* JobResponse.swift */; };
+		1B5A72B42A4F14DB00D58793 /* ApplyJobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72B32A4F14DB00D58793 /* ApplyJobResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		1B5A72A92A4F12EF00D58793 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		1B5A72AB2A4F131900D58793 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1B5A72AD2A4F13B600D58793 /* JobEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEndpoints.swift; sourceTree = "<group>"; };
+		1B5A72B12A4F14C300D58793 /* JobResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobResponse.swift; sourceTree = "<group>"; };
+		1B5A72B32A4F14DB00D58793 /* ApplyJobResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 		1B5A72942A4F0A1A00D58793 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B5A72B12A4F14C300D58793 /* JobResponse.swift */,
+				1B5A72B32A4F14DB00D58793 /* ApplyJobResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -376,6 +382,7 @@
 			files = (
 				1B5A72A82A4F12CC00D58793 /* RequestError.swift in Sources */,
 				1B5A72AA2A4F12EF00D58793 /* Endpoint.swift in Sources */,
+				1B5A72B22A4F14C300D58793 /* JobResponse.swift in Sources */,
 				1B5A72A42A4F0EBF00D58793 /* UIViewController+Extension.swift in Sources */,
 				1B5A72622A4F094C00D58793 /* AppDelegate.swift in Sources */,
 				1B5A72AC2A4F131900D58793 /* API.swift in Sources */,
@@ -384,6 +391,7 @@
 				1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */,
 				1B5A72A62A4F12B900D58793 /* RequestMethod.swift in Sources */,
 				1B5A72A22A4F0E3200D58793 /* UIFont+Extension.swift in Sources */,
+				1B5A72B42A4F14DB00D58793 /* ApplyJobResponse.swift in Sources */,
 				1B5A72A02A4F0D9400D58793 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
