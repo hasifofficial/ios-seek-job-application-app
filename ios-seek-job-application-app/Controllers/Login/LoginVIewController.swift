@@ -231,9 +231,8 @@ class LoginViewController: UIViewController {
     }
     
     private func navigateToHome() {
-        let service = JobService()
-        let vm = JobListingViewModel(service: service)
-        let vc = JobListingViewController(viewModel: vm)
+        let jobService = JobService()
+        let vc = HomeTabBarVIewController(jobService: jobService)
         navigationController?.pushViewController(vc, animated: true)
     }
     
