@@ -43,6 +43,7 @@
 		1BB168882A4F1EEF00907B44 /* JobListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */; };
 		1BB1688B2A4F1F9800907B44 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1688A2A4F1F9800907B44 /* JobDetailViewController.swift */; };
 		1BB1688D2A4F1FA400907B44 /* JobDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1688C2A4F1FA400907B44 /* JobDetailViewModel.swift */; };
+		1BB1688F2A4F225100907B44 /* JobDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1688E2A4F225100907B44 /* JobDetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewModelTests.swift; sourceTree = "<group>"; };
 		1BB1688A2A4F1F9800907B44 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
 		1BB1688C2A4F1FA400907B44 /* JobDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewModel.swift; sourceTree = "<group>"; };
+		1BB1688E2A4F225100907B44 /* JobDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				1B5A72B72A4F156900D58793 /* MockServices */,
 				1B5A72782A4F095600D58793 /* JobServiceTests.swift */,
 				1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */,
+				1BB1688E2A4F225100907B44 /* JobDetailViewModelTests.swift */,
 				1BB1687E2A4F1B9600907B44 /* LoginViewModelTests.swift */,
 			);
 			path = "ios-seek-job-application-appTests";
@@ -511,6 +514,7 @@
 				1BB1687F2A4F1B9600907B44 /* LoginViewModelTests.swift in Sources */,
 				1BB168882A4F1EEF00907B44 /* JobListingViewModelTests.swift in Sources */,
 				1B5A72792A4F095600D58793 /* JobServiceTests.swift in Sources */,
+				1BB1688F2A4F225100907B44 /* JobDetailViewModelTests.swift in Sources */,
 				1B5A72B92A4F157900D58793 /* Mockable.swift in Sources */,
 				1B5A72BB2A4F15B100D58793 /* JobServiceMockable.swift in Sources */,
 			);
