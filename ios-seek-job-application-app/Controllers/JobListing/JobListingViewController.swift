@@ -92,7 +92,12 @@ class JobListingViewController: UIViewController {
     }
     
     private func navigateToJobDetails(with jobId: String) {
-
+        let vm = JobDetailViewModel(
+            id: jobId,
+            service: viewModel.service
+        )
+        let vc = JobDetailViewController(viewModel: vm)
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

@@ -41,6 +41,8 @@
 		1BB168842A4F1CEB00907B44 /* JobListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168832A4F1CEB00907B44 /* JobListingViewModel.swift */; };
 		1BB168862A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168852A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift */; };
 		1BB168882A4F1EEF00907B44 /* JobListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */; };
+		1BB1688B2A4F1F9800907B44 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1688A2A4F1F9800907B44 /* JobDetailViewController.swift */; };
+		1BB1688D2A4F1FA400907B44 /* JobDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1688C2A4F1FA400907B44 /* JobDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		1BB168832A4F1CEB00907B44 /* JobListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewModel.swift; sourceTree = "<group>"; };
 		1BB168852A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewModelTests.swift; sourceTree = "<group>"; };
+		1BB1688A2A4F1F9800907B44 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		1BB1688C2A4F1FA400907B44 /* JobDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,7 @@
 		1B5A72912A4F09F600D58793 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1BB168892A4F1F8F00907B44 /* JobDetail */,
 				1BB168802A4F1CD500907B44 /* JobListing */,
 				1B5A72C92A4F180900D58793 /* Login */,
 				1B5A729C2A4F0C0400D58793 /* Root */,
@@ -328,6 +333,15 @@
 				1BB168832A4F1CEB00907B44 /* JobListingViewModel.swift */,
 			);
 			path = JobListing;
+			sourceTree = "<group>";
+		};
+		1BB168892A4F1F8F00907B44 /* JobDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1BB1688A2A4F1F9800907B44 /* JobDetailViewController.swift */,
+				1BB1688C2A4F1FA400907B44 /* JobDetailViewModel.swift */,
+			);
+			path = JobDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,8 +497,10 @@
 				1BB168862A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift in Sources */,
 				1B5A72B42A4F14DB00D58793 /* ApplyJobResponse.swift in Sources */,
 				1BB168842A4F1CEB00907B44 /* JobListingViewModel.swift in Sources */,
+				1BB1688B2A4F1F9800907B44 /* JobDetailViewController.swift in Sources */,
 				1BB168822A4F1CE200907B44 /* JobListingViewController.swift in Sources */,
 				1B5A72A02A4F0D9400D58793 /* UIColor+Extension.swift in Sources */,
+				1BB1688D2A4F1FA400907B44 /* JobDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

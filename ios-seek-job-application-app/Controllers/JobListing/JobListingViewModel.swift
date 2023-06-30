@@ -38,6 +38,7 @@ class JobListingViewModel {
                 }
             } receiveValue: { [weak self] response in
                 guard let self = self else { return }
+                
                 self.pageDetailSubject.send(response)
                 self.jobsSubject.send(response.jobs)
             }
