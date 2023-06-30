@@ -36,6 +36,7 @@
 		1B5A72CB2A4F181E00D58793 /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72CA2A4F181E00D58793 /* LoginVIewController.swift */; };
 		1B5A72CD2A4F182600D58793 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72CC2A4F182600D58793 /* LoginViewModel.swift */; };
 		1B5A72D02A4F187800D58793 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72D22A4F187800D58793 /* Localizable.strings */; };
+		1BB1687F2A4F1B9600907B44 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1687E2A4F1B9600907B44 /* LoginViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		1B5A72CA2A4F181E00D58793 /* LoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
 		1B5A72CC2A4F182600D58793 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1B5A72D12A4F187800D58793 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1BB1687E2A4F1B9600907B44 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				1B5A72BC2A4F15E200D58793 /* MockResponse */,
 				1B5A72B72A4F156900D58793 /* MockServices */,
 				1B5A72782A4F095600D58793 /* JobServiceTests.swift */,
+				1BB1687E2A4F1B9600907B44 /* LoginViewModelTests.swift */,
 			);
 			path = "ios-seek-job-application-appTests";
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB1687F2A4F1B9600907B44 /* LoginViewModelTests.swift in Sources */,
 				1B5A72792A4F095600D58793 /* JobServiceTests.swift in Sources */,
 				1B5A72B92A4F157900D58793 /* Mockable.swift in Sources */,
 				1B5A72BB2A4F15B100D58793 /* JobServiceMockable.swift in Sources */,
