@@ -40,6 +40,7 @@
 		1BB168822A4F1CE200907B44 /* JobListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168812A4F1CE200907B44 /* JobListingViewController.swift */; };
 		1BB168842A4F1CEB00907B44 /* JobListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168832A4F1CEB00907B44 /* JobListingViewModel.swift */; };
 		1BB168862A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168852A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift */; };
+		1BB168882A4F1EEF00907B44 /* JobListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		1BB168812A4F1CE200907B44 /* JobListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewController.swift; sourceTree = "<group>"; };
 		1BB168832A4F1CEB00907B44 /* JobListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewModel.swift; sourceTree = "<group>"; };
 		1BB168852A4F1D2F00907B44 /* JobDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				1B5A72BC2A4F15E200D58793 /* MockResponse */,
 				1B5A72B72A4F156900D58793 /* MockServices */,
 				1B5A72782A4F095600D58793 /* JobServiceTests.swift */,
+				1BB168872A4F1EEF00907B44 /* JobListingViewModelTests.swift */,
 				1BB1687E2A4F1B9600907B44 /* LoginViewModelTests.swift */,
 			);
 			path = "ios-seek-job-application-appTests";
@@ -490,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB1687F2A4F1B9600907B44 /* LoginViewModelTests.swift in Sources */,
+				1BB168882A4F1EEF00907B44 /* JobListingViewModelTests.swift in Sources */,
 				1B5A72792A4F095600D58793 /* JobServiceTests.swift in Sources */,
 				1B5A72B92A4F157900D58793 /* Mockable.swift in Sources */,
 				1B5A72BB2A4F15B100D58793 /* JobServiceMockable.swift in Sources */,
