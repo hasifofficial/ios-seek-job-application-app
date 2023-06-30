@@ -1,0 +1,103 @@
+{
+    "page": 1,
+    "size": 10,
+    "total": 20,
+    "hasNext": true,
+    "jobs": [
+        {
+            "id": "job-2",
+            "positionTitle": "Junior Mobile Developer",
+            "description": "Job Description for a Junior Mobile Developer",
+            "company": {
+                "id": "company-2",
+                "name": "SEEK MAX"
+            },
+            "salaryRange": {
+                "min": 1234,
+                "max": 2345
+            },
+            "location": "Malaysia",
+            "status": "PUBLISHED",
+            "industry": "Technology",
+            "createdAt": "2023",
+            "updatedAt": "2023",
+            "haveIApplied": false
+        },
+        {
+            "id": "job-3",
+            "positionTitle": "Junior Mobile Developer",
+            "description": "Job Description for a Junior Mobile Developer",
+            "company": {
+                "id": "company-1",
+                "name": "SEEK Ltd."
+            },
+            "salaryRange": {
+                "min": 1234,
+                "max": 2345
+            },
+            "location": "Malaysia",
+            "status": "PUBLISHED",
+            "industry": "Technology",
+            "createdAt": "2023",
+            "updatedAt": "2023",
+            "haveIApplied": false
+        },
+        {
+            "id": "job-4",
+            "positionTitle": "Junior Mobile Developer",
+            "description": "Job Description for a Junior Mobile Developer",
+            "company": {
+                "id": "company-1",
+                "name": "SEEK MAX"
+            },
+            "salaryRange": {
+                "min": 1234,
+                "max": 2345
+            },
+            "location": "Malaysia",
+            "status": "PUBLISHED",
+            "industry": "Technology",
+            "createdAt": "2023",
+            "updatedAt": "2023",
+            "haveIApplied": false
+        },
+        {
+            "id": "job-5",
+            "positionTitle": "Junior Mobile Developer",
+            "description": "Job Description for a Junior Mobile Developer",
+            "company": {
+                "id": "company-3",
+                "name": "McDonalds"
+            },
+            "salaryRange": {
+                "min": 1234,
+                "max": 2345
+            },
+            "location": "Malaysia",
+            "status": "PUBLISHED",
+            "industry": "Technology",
+            "createdAt": "2023",
+            "updatedAt": "2023",
+            "haveIApplied": true
+        },
+        {
+            "id": "job-6",
+            "positionTitle": "Junior Mobile Developer",
+            "description": "Job Description for a Junior Mobile Developer",
+            "company": {
+                "id": "company-2",
+                "name": "SEEK MAX"
+            },
+            "salaryRange": {
+                "min": 1234,
+                "max": 2345
+            },
+            "location": "Malaysia",
+            "status": "PUBLISHED",
+            "industry": "Technology",
+            "createdAt": "2023",
+            "updatedAt": "2023",
+            "haveIApplied": true
+        }
+    ]
+}

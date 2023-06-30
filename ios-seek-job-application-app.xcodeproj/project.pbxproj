@@ -11,7 +11,7 @@
 		1B5A72642A4F094C00D58793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72632A4F094C00D58793 /* SceneDelegate.swift */; };
 		1B5A726B2A4F095600D58793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A726A2A4F095600D58793 /* Assets.xcassets */; };
 		1B5A726E2A4F095600D58793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A726C2A4F095600D58793 /* LaunchScreen.storyboard */; };
-		1B5A72792A4F095600D58793 /* ios_seek_job_application_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72782A4F095600D58793 /* ios_seek_job_application_appTests.swift */; };
+		1B5A72792A4F095600D58793 /* JobServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72782A4F095600D58793 /* JobServiceTests.swift */; };
 		1B5A72832A4F095600D58793 /* ios_seek_job_application_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72822A4F095600D58793 /* ios_seek_job_application_appUITests.swift */; };
 		1B5A72852A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72842A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift */; };
 		1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */; };
@@ -25,6 +25,14 @@
 		1B5A72AE2A4F13B600D58793 /* JobEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72AD2A4F13B600D58793 /* JobEndpoints.swift */; };
 		1B5A72B22A4F14C300D58793 /* JobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72B12A4F14C300D58793 /* JobResponse.swift */; };
 		1B5A72B42A4F14DB00D58793 /* ApplyJobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72B32A4F14DB00D58793 /* ApplyJobResponse.swift */; };
+		1B5A72B62A4F154200D58793 /* JobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72B52A4F154200D58793 /* JobService.swift */; };
+		1B5A72B92A4F157900D58793 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72B82A4F157900D58793 /* Mockable.swift */; };
+		1B5A72BB2A4F15B100D58793 /* JobServiceMockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72BA2A4F15B100D58793 /* JobServiceMockable.swift */; };
+		1B5A72C02A4F160900D58793 /* get_jobs_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72BF2A4F160900D58793 /* get_jobs_response.json */; };
+		1B5A72C22A4F162600D58793 /* get_job_detail_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C12A4F162600D58793 /* get_job_detail_response.json */; };
+		1B5A72C42A4F163A00D58793 /* get_published_jobs_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C32A4F163A00D58793 /* get_published_jobs_response.json */; };
+		1B5A72C62A4F165000D58793 /* get_applied_jobs_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C52A4F165000D58793 /* get_applied_jobs_response.json */; };
+		1B5A72C82A4F166300D58793 /* put_apply_job_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C72A4F166300D58793 /* put_apply_job_response.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,7 @@
 		1B5A726D2A4F095600D58793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5A726F2A4F095600D58793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5A72742A4F095600D58793 /* ios-seek-job-application-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-seek-job-application-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5A72782A4F095600D58793 /* ios_seek_job_application_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_seek_job_application_appTests.swift; sourceTree = "<group>"; };
+		1B5A72782A4F095600D58793 /* JobServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobServiceTests.swift; sourceTree = "<group>"; };
 		1B5A727E2A4F095600D58793 /* ios-seek-job-application-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-seek-job-application-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5A72822A4F095600D58793 /* ios_seek_job_application_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_seek_job_application_appUITests.swift; sourceTree = "<group>"; };
 		1B5A72842A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_seek_job_application_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -67,6 +75,14 @@
 		1B5A72AD2A4F13B600D58793 /* JobEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEndpoints.swift; sourceTree = "<group>"; };
 		1B5A72B12A4F14C300D58793 /* JobResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobResponse.swift; sourceTree = "<group>"; };
 		1B5A72B32A4F14DB00D58793 /* ApplyJobResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobResponse.swift; sourceTree = "<group>"; };
+		1B5A72B52A4F154200D58793 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobService.swift; sourceTree = "<group>"; };
+		1B5A72B82A4F157900D58793 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		1B5A72BA2A4F15B100D58793 /* JobServiceMockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobServiceMockable.swift; sourceTree = "<group>"; };
+		1B5A72BF2A4F160900D58793 /* get_jobs_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_jobs_response.json; sourceTree = "<group>"; };
+		1B5A72C12A4F162600D58793 /* get_job_detail_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_job_detail_response.json; sourceTree = "<group>"; };
+		1B5A72C32A4F163A00D58793 /* get_published_jobs_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_published_jobs_response.json; sourceTree = "<group>"; };
+		1B5A72C52A4F165000D58793 /* get_applied_jobs_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_applied_jobs_response.json; sourceTree = "<group>"; };
+		1B5A72C72A4F166300D58793 /* put_apply_job_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = put_apply_job_response.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +147,9 @@
 		1B5A72772A4F095600D58793 /* ios-seek-job-application-appTests */ = {
 			isa = PBXGroup;
 			children = (
-				1B5A72782A4F095600D58793 /* ios_seek_job_application_appTests.swift */,
+				1B5A72BC2A4F15E200D58793 /* MockResponse */,
+				1B5A72B72A4F156900D58793 /* MockServices */,
+				1B5A72782A4F095600D58793 /* JobServiceTests.swift */,
 			);
 			path = "ios-seek-job-application-appTests";
 			sourceTree = "<group>";
@@ -238,6 +256,7 @@
 		1B5A729B2A4F0A8C00D58793 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1B5A72B52A4F154200D58793 /* JobService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -248,6 +267,27 @@
 				1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		1B5A72B72A4F156900D58793 /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A72B82A4F157900D58793 /* Mockable.swift */,
+				1B5A72BA2A4F15B100D58793 /* JobServiceMockable.swift */,
+			);
+			path = MockServices;
+			sourceTree = "<group>";
+		};
+		1B5A72BC2A4F15E200D58793 /* MockResponse */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A72BF2A4F160900D58793 /* get_jobs_response.json */,
+				1B5A72C12A4F162600D58793 /* get_job_detail_response.json */,
+				1B5A72C32A4F163A00D58793 /* get_published_jobs_response.json */,
+				1B5A72C52A4F165000D58793 /* get_applied_jobs_response.json */,
+				1B5A72C72A4F166300D58793 /* put_apply_job_response.json */,
+			);
+			path = MockResponse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5A72C82A4F166300D58793 /* put_apply_job_response.json in Resources */,
+				1B5A72C22A4F162600D58793 /* get_job_detail_response.json in Resources */,
+				1B5A72C02A4F160900D58793 /* get_jobs_response.json in Resources */,
+				1B5A72C42A4F163A00D58793 /* get_published_jobs_response.json in Resources */,
+				1B5A72C62A4F165000D58793 /* get_applied_jobs_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +432,7 @@
 				1B5A72622A4F094C00D58793 /* AppDelegate.swift in Sources */,
 				1B5A72AC2A4F131900D58793 /* API.swift in Sources */,
 				1B5A72642A4F094C00D58793 /* SceneDelegate.swift in Sources */,
+				1B5A72B62A4F154200D58793 /* JobService.swift in Sources */,
 				1B5A72AE2A4F13B600D58793 /* JobEndpoints.swift in Sources */,
 				1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */,
 				1B5A72A62A4F12B900D58793 /* RequestMethod.swift in Sources */,
@@ -400,7 +446,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5A72792A4F095600D58793 /* ios_seek_job_application_appTests.swift in Sources */,
+				1B5A72792A4F095600D58793 /* JobServiceTests.swift in Sources */,
+				1B5A72B92A4F157900D58793 /* Mockable.swift in Sources */,
+				1B5A72BB2A4F15B100D58793 /* JobServiceMockable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
