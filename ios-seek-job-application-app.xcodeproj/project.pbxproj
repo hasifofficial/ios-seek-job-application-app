@@ -17,6 +17,7 @@
 		1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */; };
 		1B5A72A02A4F0D9400D58793 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A729F2A4F0D9400D58793 /* UIColor+Extension.swift */; };
 		1B5A72A22A4F0E3200D58793 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72A12A4F0E3200D58793 /* UIFont+Extension.swift */; };
+		1B5A72A42A4F0EBF00D58793 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72A32A4F0EBF00D58793 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1B5A729F2A4F0D9400D58793 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1B5A72A12A4F0E3200D58793 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		1B5A72A32A4F0EBF00D58793 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				1B5A729F2A4F0D9400D58793 /* UIColor+Extension.swift */,
 				1B5A72A12A4F0E3200D58793 /* UIFont+Extension.swift */,
+				1B5A72A32A4F0EBF00D58793 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5A72A42A4F0EBF00D58793 /* UIViewController+Extension.swift in Sources */,
 				1B5A72622A4F094C00D58793 /* AppDelegate.swift in Sources */,
 				1B5A72642A4F094C00D58793 /* SceneDelegate.swift in Sources */,
 				1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */,
