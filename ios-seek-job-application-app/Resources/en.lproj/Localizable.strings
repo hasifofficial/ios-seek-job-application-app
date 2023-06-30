@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  ios-seek-job-application-app
+
+  Created by Mohammad Hasif Afiq on 30/06/2023.
+  
+*/
+
+"login_title" = "Login";
+"login_username_title" = "Username";
+"login_password_title" = "Password";
+"login_username_error" = "Username required";
+"login_password_error" = "Password required";
+"login_button" = "Sign in";

@@ -33,6 +33,9 @@
 		1B5A72C42A4F163A00D58793 /* get_published_jobs_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C32A4F163A00D58793 /* get_published_jobs_response.json */; };
 		1B5A72C62A4F165000D58793 /* get_applied_jobs_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C52A4F165000D58793 /* get_applied_jobs_response.json */; };
 		1B5A72C82A4F166300D58793 /* put_apply_job_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72C72A4F166300D58793 /* put_apply_job_response.json */; };
+		1B5A72CB2A4F181E00D58793 /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72CA2A4F181E00D58793 /* LoginVIewController.swift */; };
+		1B5A72CD2A4F182600D58793 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72CC2A4F182600D58793 /* LoginViewModel.swift */; };
+		1B5A72D02A4F187800D58793 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72D22A4F187800D58793 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		1B5A72C32A4F163A00D58793 /* get_published_jobs_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_published_jobs_response.json; sourceTree = "<group>"; };
 		1B5A72C52A4F165000D58793 /* get_applied_jobs_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_applied_jobs_response.json; sourceTree = "<group>"; };
 		1B5A72C72A4F166300D58793 /* put_apply_job_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = put_apply_job_response.json; sourceTree = "<group>"; };
+		1B5A72CA2A4F181E00D58793 /* LoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
+		1B5A72CC2A4F182600D58793 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1B5A72D12A4F187800D58793 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,7 @@
 		1B5A72912A4F09F600D58793 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B5A72C92A4F180900D58793 /* Login */,
 				1B5A729C2A4F0C0400D58793 /* Root */,
 				1B5A72972A4F0A3C00D58793 /* Base */,
 			);
@@ -184,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				1B5A726A2A4F095600D58793 /* Assets.xcassets */,
+				1B5A72D22A4F187800D58793 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -288,6 +296,15 @@
 				1B5A72C72A4F166300D58793 /* put_apply_job_response.json */,
 			);
 			path = MockResponse;
+			sourceTree = "<group>";
+		};
+		1B5A72C92A4F180900D58793 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A72CA2A4F181E00D58793 /* LoginVIewController.swift */,
+				1B5A72CC2A4F182600D58793 /* LoginViewModel.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5A726E2A4F095600D58793 /* LaunchScreen.storyboard in Resources */,
+				1B5A72D02A4F187800D58793 /* Localizable.strings in Resources */,
 				1B5A726B2A4F095600D58793 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,11 +447,13 @@
 				1B5A72AA2A4F12EF00D58793 /* Endpoint.swift in Sources */,
 				1B5A72B22A4F14C300D58793 /* JobResponse.swift in Sources */,
 				1B5A72A42A4F0EBF00D58793 /* UIViewController+Extension.swift in Sources */,
+				1B5A72CD2A4F182600D58793 /* LoginViewModel.swift in Sources */,
 				1B5A72622A4F094C00D58793 /* AppDelegate.swift in Sources */,
 				1B5A72AC2A4F131900D58793 /* API.swift in Sources */,
 				1B5A72642A4F094C00D58793 /* SceneDelegate.swift in Sources */,
 				1B5A72B62A4F154200D58793 /* JobService.swift in Sources */,
 				1B5A72AE2A4F13B600D58793 /* JobEndpoints.swift in Sources */,
+				1B5A72CB2A4F181E00D58793 /* LoginVIewController.swift in Sources */,
 				1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */,
 				1B5A72A62A4F12B900D58793 /* RequestMethod.swift in Sources */,
 				1B5A72A22A4F0E3200D58793 /* UIFont+Extension.swift in Sources */,
@@ -483,6 +503,14 @@
 				1B5A726D2A4F095600D58793 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B5A72D22A4F187800D58793 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5A72D12A4F187800D58793 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
