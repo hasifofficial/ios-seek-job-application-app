@@ -99,12 +99,14 @@
 		1B5A72602A4F094C00D58793 /* ios-seek-job-application-app */ = {
 			isa = PBXGroup;
 			children = (
-				1B5A72612A4F094C00D58793 /* AppDelegate.swift */,
-				1B5A72632A4F094C00D58793 /* SceneDelegate.swift */,
+				1B5A72962A4F0A2F00D58793 /* Extensions */,
+				1B5A72952A4F0A2700D58793 /* Networking */,
+				1B5A72942A4F0A1A00D58793 /* Models */,
+				1B5A72932A4F0A0A00D58793 /* Resources */,
+				1B5A72922A4F0A0100D58793 /* Cells */,
+				1B5A72912A4F09F600D58793 /* Controllers */,
 				1B5A72652A4F094C00D58793 /* ViewController.swift */,
 				1B5A72672A4F094C00D58793 /* Main.storyboard */,
-				1B5A726A2A4F095600D58793 /* Assets.xcassets */,
-				1B5A726C2A4F095600D58793 /* LaunchScreen.storyboard */,
 				1B5A726F2A4F095600D58793 /* Info.plist */,
 			);
 			path = "ios-seek-job-application-app";
@@ -125,6 +127,92 @@
 				1B5A72842A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift */,
 			);
 			path = "ios-seek-job-application-appUITests";
+			sourceTree = "<group>";
+		};
+		1B5A72912A4F09F600D58793 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A72972A4F0A3C00D58793 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B5A72922A4F0A0100D58793 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A72982A4F0A5B00D58793 /* TableView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1B5A72932A4F0A0A00D58793 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A726A2A4F095600D58793 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B5A72942A4F0A1A00D58793 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B5A72952A4F0A2700D58793 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A729B2A4F0A8C00D58793 /* Services */,
+				1B5A729A2A4F0A8300D58793 /* Endpoints */,
+				1B5A72992A4F0A7800D58793 /* Base */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1B5A72962A4F0A2F00D58793 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1B5A72972A4F0A3C00D58793 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A72612A4F094C00D58793 /* AppDelegate.swift */,
+				1B5A72632A4F094C00D58793 /* SceneDelegate.swift */,
+				1B5A726C2A4F095600D58793 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B5A72982A4F0A5B00D58793 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1B5A72992A4F0A7800D58793 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B5A729A2A4F0A8300D58793 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		1B5A729B2A4F0A8C00D58793 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
