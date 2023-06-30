@@ -231,7 +231,10 @@ class LoginViewController: UIViewController {
     }
     
     private func navigateToHome() {
-
+        let service = JobService()
+        let vm = JobListingViewModel(service: service)
+        let vc = JobListingViewController(viewModel: vm)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc private func loginButtonAction() {

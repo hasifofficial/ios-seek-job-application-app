@@ -12,3 +12,7 @@
 "login_username_error" = "Username required";
 "login_password_error" = "Password required";
 "login_button" = "Sign in";
+
+"job_listing_title" = "Jobs";
+"job_listing_expired" = "Expired";
+"job_listing_applied" = "Applied";
