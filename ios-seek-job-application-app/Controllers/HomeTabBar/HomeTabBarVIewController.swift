@@ -46,7 +46,8 @@ class HomeTabBarVIewController: UITabBarController {
     private func setupViewControllers() {
         viewControllers = [
             makeJobListingViewController(),
-            makeMyApplicationViewController()
+            makeMyApplicationViewController(),
+            makeProfileViewController()
         ]
 
         title = viewControllers?.first?.title
@@ -76,6 +77,19 @@ class HomeTabBarVIewController: UITabBarController {
             title: NSLocalizedString("my_application_title", comment: ""),
             image: UIImage(systemName: "star"),
             selectedImage: UIImage(systemName: "star")
+        )
+        tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: -5, right: 0)
+        vc.tabBarItem = tabBarItem
+        return vc
+    }
+    
+    private func makeProfileViewController() -> ProfileViewController {
+        let vm = ProfileViewModel()
+        let vc = ProfileViewController(viewModel: vm)
+        let tabBarItem = UITabBarItem(
+            title: NSLocalizedString("profile_title", comment: ""),
+            image: UIImage(systemName: "person.crop.circle"),
+            selectedImage: UIImage(systemName: "person.crop.circle")
         )
         tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: -5, right: 0)
         vc.tabBarItem = tabBarItem

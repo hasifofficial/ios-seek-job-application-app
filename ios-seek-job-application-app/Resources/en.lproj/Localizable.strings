@@ -21,3 +21,6 @@
 "job_detail_apply_button" = "Apply for this job";
 
 "my_application_title" = "My Application";
+
+"profile_title" = "My Profile";
+"profile_logout_button" = "Logout";
