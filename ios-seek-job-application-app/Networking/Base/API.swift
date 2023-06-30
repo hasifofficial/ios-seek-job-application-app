@@ -37,6 +37,24 @@ class API {
                 .tryMap { (data, response) -> Data in
                     guard let response = response as? HTTPURLResponse else { throw RequestError.noResponse }
 
+                    #if DEBUG
+                    print("⬅️⬅️⬅️⬅️⬅️ Request:")
+                    print("🎯 Endpoint: \(url)")
+                    
+                    if let requestHeader = endpoint.header {
+                        print("👤 Header: \(requestHeader)")
+                    }
+                    
+                    if let requestBody = endpoint.body {
+                        print("📦 Body: \(requestBody)")
+                    }
+                    
+                    print("⚙️ Method: \(endpoint.method.rawValue)")
+                    print("➡️➡️➡️➡️➡️ Response:")
+                    print("🔢 Status code: \(response.statusCode)")
+                    print("👤 Header: \(response.allHeaderFields)")
+                    #endif
+
                     switch response.statusCode {
                     case 200...299:
                         return data
@@ -58,7 +76,11 @@ class API {
                     }
                 }, receiveValue: { [weak self] value in
                     guard self != nil else { return promise(.failure(RequestError.unknown)) }
-                                        
+                                     
+                    #if DEBUG
+                    print("📦 Payload: \(value)")
+                    #endif
+
                     promise(.success(value))
                 })
                 .store(in: &self.cancellables)
