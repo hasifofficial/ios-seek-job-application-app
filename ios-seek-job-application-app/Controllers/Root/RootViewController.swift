@@ -1,19 +1,15 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  ios-seek-job-application-app
 //
 //  Created by Mohammad Hasif Afiq on 30/06/2023.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

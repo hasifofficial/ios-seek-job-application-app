@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		1B5A72622A4F094C00D58793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72612A4F094C00D58793 /* AppDelegate.swift */; };
 		1B5A72642A4F094C00D58793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72632A4F094C00D58793 /* SceneDelegate.swift */; };
-		1B5A72662A4F094C00D58793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72652A4F094C00D58793 /* ViewController.swift */; };
-		1B5A72692A4F094C00D58793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A72672A4F094C00D58793 /* Main.storyboard */; };
 		1B5A726B2A4F095600D58793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A726A2A4F095600D58793 /* Assets.xcassets */; };
 		1B5A726E2A4F095600D58793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A726C2A4F095600D58793 /* LaunchScreen.storyboard */; };
 		1B5A72792A4F095600D58793 /* ios_seek_job_application_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72782A4F095600D58793 /* ios_seek_job_application_appTests.swift */; };
 		1B5A72832A4F095600D58793 /* ios_seek_job_application_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72822A4F095600D58793 /* ios_seek_job_application_appUITests.swift */; };
 		1B5A72852A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72842A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift */; };
+		1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +38,6 @@
 		1B5A725E2A4F094C00D58793 /* ios-seek-job-application-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-seek-job-application-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5A72612A4F094C00D58793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B5A72632A4F094C00D58793 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B5A72652A4F094C00D58793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B5A72682A4F094C00D58793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B5A726A2A4F095600D58793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B5A726D2A4F095600D58793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5A726F2A4F095600D58793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		1B5A727E2A4F095600D58793 /* ios-seek-job-application-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-seek-job-application-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5A72822A4F095600D58793 /* ios_seek_job_application_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_seek_job_application_appUITests.swift; sourceTree = "<group>"; };
 		1B5A72842A4F095600D58793 /* ios_seek_job_application_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_seek_job_application_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +103,6 @@
 				1B5A72932A4F0A0A00D58793 /* Resources */,
 				1B5A72922A4F0A0100D58793 /* Cells */,
 				1B5A72912A4F09F600D58793 /* Controllers */,
-				1B5A72652A4F094C00D58793 /* ViewController.swift */,
-				1B5A72672A4F094C00D58793 /* Main.storyboard */,
 				1B5A726F2A4F095600D58793 /* Info.plist */,
 			);
 			path = "ios-seek-job-application-app";
@@ -132,6 +128,7 @@
 		1B5A72912A4F09F600D58793 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B5A729C2A4F0C0400D58793 /* Root */,
 				1B5A72972A4F0A3C00D58793 /* Base */,
 			);
 			path = Controllers;
@@ -213,6 +210,14 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		1B5A729C2A4F0C0400D58793 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A729D2A4F0C1A00D58793 /* RootViewController.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +326,6 @@
 			files = (
 				1B5A726E2A4F095600D58793 /* LaunchScreen.storyboard in Resources */,
 				1B5A726B2A4F095600D58793 /* Assets.xcassets in Resources */,
-				1B5A72692A4F094C00D58793 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5A72662A4F094C00D58793 /* ViewController.swift in Sources */,
 				1B5A72622A4F094C00D58793 /* AppDelegate.swift in Sources */,
 				1B5A72642A4F094C00D58793 /* SceneDelegate.swift in Sources */,
+				1B5A729E2A4F0C1A00D58793 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1B5A72672A4F094C00D58793 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B5A72682A4F094C00D58793 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B5A726C2A4F095600D58793 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -530,7 +526,7 @@
 				INFOPLIST_FILE = "ios-seek-job-application-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -562,7 +558,7 @@
 				INFOPLIST_FILE = "ios-seek-job-application-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
